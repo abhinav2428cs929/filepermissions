@@ -1,0 +1,12 @@
+ls -l index.html
+-rwxr-xr-x 1 delta delta ...
+
+chmod 777 index.html
+ls -l index.html
+-rwxrwxrwx 1 delta delta ...
+
+sudo chown www-data:www-data index.html
+
+sudo chmod 755 index.html
+ls -l index.html
+-rwxr-xr-x 1 www-data www-data ...
